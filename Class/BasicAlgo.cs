@@ -19,5 +19,17 @@ namespace Code_Chanllenges
             num1 = num1 * 3;
             return num1;
         }
+
+        public static int ABSDiff(int n)
+        {
+            if (n<51) {
+                n = Math.Abs(n-51);
+                return n;
+            } else {
+                n = Math.Abs(n-51);
+                n = n*3;
+                return n;
+            }
+        }
     }
 }

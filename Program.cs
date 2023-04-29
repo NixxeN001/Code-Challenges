@@ -12,7 +12,15 @@
 
             Console.WriteLine(result);
             Console.ReadLine();*/
-            #endregion 
+            #endregion
+            #region Absolute Difference 
+            /*
+            var num = Convert.ToInt32 (Console.ReadLine());
+            var result =  BasicAlgo.ABSDiff(num);
+            Console.WriteLine(result);
+            Console.ReadLine(); */
+            #endregion
+
 
 
         }
