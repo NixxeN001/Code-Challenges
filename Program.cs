@@ -1,4 +1,6 @@
-﻿namespace Code_Chanllenges
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Code_Chanllenges
 {
     internal class Program
     {
@@ -20,8 +22,19 @@
             Console.WriteLine(result);
             Console.ReadLine(); */
             #endregion
-
-
+            #region Return the index of Capitals 
+            /*
+             var name = Console.ReadLine();
+             int[] test = { 1,2,3,4,};
+             int[] res = BasicAlgo.IndexOFCapitals(name);
+             foreach (int i in res) { Console.Write(i + "."); }
+             Console.ReadLine(); */
+            #endregion
+            #region PinValidation
+            /* var PIN = Console.ReadLine();
+            Console.WriteLine(BasicAlgo.ValidatePIN(PIN));
+            Console.ReadLine(); */
+            #endregion
 
         }
     }
